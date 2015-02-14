@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Grade</title>
+</head>
+<body>
+    <input type="text" name="marks" id="number">
+
+    <button onclick="grade()">Submit</button>
+<script>
+    function grade() {
+        var marks = document.getElementById('number').value;
+        findGrade(marks);
+    }
+    function  findGrade(marks) {
+
+        if (marks <= 100 && marks >= 90) {
+            alert("A");
+        }
+        else if (marks <= 89 && marks >= 80) {
+            alert("B");
+        }
+        else if (marks <= 79 && marks >= 70) {
+            alert("C");
+        }
+        else if (marks <= 69 && marks >= 60) {
+            alert("D");
+        }
+        else if (marks <= 59 && marks >= 50) {
+            alert("E");
+        }
+        else if (marks <= 49 && marks >= 0) {
+            alert("F");
+        }
+        else {
+            alert('invalid number');
+        }
+
+        // alert(marks);
+    }
+
+</script>
+</body>
+</html>
