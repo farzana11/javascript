@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ul>
+ <li><input type="checkbox" name="myCheck">Bangladesh</li>
+ <li><input type="checkbox" name="myCheck">India</li>
+ <li><input type="checkbox" name="myCheck">Pakistan</li>
+ <li><input type="checkbox" name="myCheck">Srilanka</li>
+<li><input type="checkbox" name="myCheck">Nepal</li>
+</ul>
+<button onclick="check()">Check All</button>
+<button onclick="uncheck()">Uncheck All</button>
+
+<script type="text/javascript">
+    function check() {
+       // alert('i am check');
+       var checkbox =  document.getElementsByName("myCheck");
+//        console.log(checkbox);
+//        console.log(checkbox.length)
+        for(var i=0 ; i<checkbox.length ; i++){
+            checkbox[i].checked=true;
+        }
+
+    }
+
+    function uncheck() {
+       // alert('i am uncheck');
+        var checkbox =  document.getElementsByName("myCheck");
+//        console.log(checkbox);
+//        console.log(checkbox.length)
+        for(var i=0 ; i<checkbox.length ; i++){
+            checkbox[i].checked=false;
+        }
+    }
+</script>
+</body>
+</html>
