@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style type="text/css">
+        td{
+            border:1px solid red;
+        }
+</style>
+
+<body>
+
+<input type="text" id="row" placeholder="Row"><br/>
+
+<input type="text" id="col" placeholder="Column"><br/>
+
+<button onclick="draw()">Draw Table</button>
+
+
+
+<div id="tableContainer">
+    <p>table will draw here</p>
+</div>
+
+<script type="text/javascript">
+    function draw() {
+        var row = document.getElementById('row').value;
+        var col = document.getElementById('col').value;
+        //alert('5  8')
+        drawTable(row,col);
+
+    }
+    function drawTable(row, col){
+        var table = document.createElement('table');
+        for(var i = 1; i <= row; i++){
+            var tr = document.createElement('tr');
+
+              for(var j = 1; j <= col; j++){
+                  var td = document.createElement('td');
+                  text = document.createTextNode('Row:'+i+ 'Col:' +j);
+                  td.appendChild(text);
+                  tr.appendChild(td);
+              }
+            table.appendChild(tr);
+        }
+        document.getElementsById('tableContainer').appendChild(table);
+    }
+</script>
+
+</body>
+</html>
