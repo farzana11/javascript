@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c90c9bab-2251-4a1a-b0be-6b0051905e13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputMarks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/calculator.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javascript.iws" />
@@ -38,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inputMarks.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="inputMarks.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inputMarks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88957053" vertical-offset="120" max-vertical-offset="750">
+            <state vertical-scroll-proportion="-13.75" vertical-offset="225" max-vertical-offset="750">
               <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculator.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/calculator.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28455284" vertical-offset="890" max-vertical-offset="1804">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -65,6 +75,7 @@
         <option value="$PROJECT_DIR$/checkbox.html" />
         <option value="$PROJECT_DIR$/create_table.html" />
         <option value="$PROJECT_DIR$/inputMarks.html" />
+        <option value="$PROJECT_DIR$/calculator.html" />
       </list>
     </option>
   </component>
@@ -173,7 +184,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24936171" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42060086" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15343347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -289,8 +300,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inputMarks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88957053" vertical-offset="120" max-vertical-offset="750">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="225" max-vertical-offset="750">
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28455284" vertical-offset="890" max-vertical-offset="1804">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
           <folding />
         </state>
       </provider>
